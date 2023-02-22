@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif; 
+    
+}
+h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+h5{
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+
+
+/* start home css */
+.backgroundline{
+    border-bottom: 1px solid #4F7942;
+}
+.headerButton p{
+    border-right: 1px solid #4F7942;
+    color: #555;
+    font-size: 14px;
+}
+.headerButton p a{
+    text-decoration: none;
+    color: #555;
+}
+/* end home css */
+/* nav bar start */
+.navbarAbsolute{
+    position: relative;
+    padding-left: 5px;
+    
+}
+.navbarAbsolute a{
+    color: #000;
+}
+.navbarAbsolute i{
+    font-size: 14px;
+    color: #000;
+}
+.refresh{
+    position: absolute;
+    margin-top: -10px;
+    font-size: 10px;
+    background: #97be8c;
+    padding:2px 6px ;
+    border-radius: 50%;
+}
+/* nav bar end */
+
+/* categories start */
+.bgcategorie{
+    background: #ddd;
+}
+.categoriesitem{
+    padding: 25px 25px 5px 5px;
+    height: 320px;
+}
+.categoriesheader{
+    padding: 0px 30px;
+    font-size: 22px;
+}
+.categoriesitem ul{
+    list-style-type: none;
+    margin-top: 5px;
+}
+.categoriesitem ul li{
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgb(139, 139, 139);
+}
+.categoriesitem ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.slide_product_list{
+
+}
+.slide_product{
+padding: 10px 5px;
+background: #ddd;
+width: auto;
+height: auto;
+text-align: center;
+box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.product_img{
+    text-align: center;
+    padding-top: 10px;
+    
+
+}
+.product_img img{
+    height: 100px;
+    width: 80px;
+}
+.slide_product a{
+    text-decoration: none;
+    color: #000;
+    
+    
+}
+
+/* categories end */
+
+/* home book list section start */
+.list_animation{
+
+}
+.list_animation ul{
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+}
+.list_animation ul li{
+
+ padding: 0px 10px;
+ border: 2px solid #4F7942;
+ border-radius: 10px;
+ 
+ 
+}
+.list_animation ul li a{
+    display: block;
+padding:10px 20px !important;
+padding-top: 20px;
+text-decoration: none;
+color: #4F7942;
+
+}
+.activeColor{
+    background: #4F7942;
+    
+    
+}
+
+ .list_animation ul li:hover:not(.activeColor){
+ background: #4F7942;
+ color: #fff ;
+ transition: all 1s ease-in-out;
+}
+.list_animation ul li a:hover{
+    color: #fff;
+}
+
+/* home book list section end */
+
+/* <!-- Weekly Popular Authors start --> */
+.author{
+    text-align: center;
+
+}
+
+.authors_img img{
+border-radius: 50%;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.authors_name{
+    margin-top: 5px;
+
+}  
+.authors_name a{
+text-decoration: none;
+color: #000;
+font-size: 16px;
+}
+/* <!-- Weekly Popular Authors end --> */
+
+
+
+/* <!-- policy start --> */
+.policy_header{
+    text-align: center;
+}
+.policy_header p i{
+    font-size: 60px;
+    color: #4F7942;
+}
+.policy_content{
+    font-size: 14px;
+}
+
+/* <!-- policy end --> */
+
+/* <!-- footer start --> */
+footer{
+    background: #111723;
+    color: #fff;
+}
+.footer_style ul{
+    list-style-type: none;
+    
+}
+.footer_style ul li {
+    margin-top: 15px;
+    font-size: 16px;
+}
+.footerContent{
+    margin-left: -45px;
+}
+.footercontact h4{
+border-bottom: 1px solid #ddd;
+}
+
+.footercontact ul{
+    list-style: none;
+}
+.footercontact ul li{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+
+/* <!-- footer end --> */
